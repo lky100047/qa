@@ -6,4 +6,4 @@ transformers>=4.0.0
 torch
 lemminflect==0.2.1
 sacremoses==0.0.43
-rouge-score==0.0.4
+morpheus
