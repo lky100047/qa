@@ -18,9 +18,3 @@ with st.spinner("Discovering Answers.."):
     if button and sentence:
         answers = qa(question=question, context=sentence)
         st.write(answers['answer'])
-        
-buttonAD = st.button("Get me AD")
-with st.spinner("Discovering AD.."):
-    if buttonAD and sentence:
-        QA = qa(question=question, context=sentence)
-        st.write(answers['answer'])
