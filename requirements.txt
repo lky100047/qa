@@ -7,3 +7,4 @@ torch
 lemminflect==0.2.1
 sacremoses==0.0.43
 morpheus
+click==8.0.4
